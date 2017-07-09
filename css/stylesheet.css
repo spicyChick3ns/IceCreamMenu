@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+}
+#iceCreamTitle {
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: auto;
+  text-align: center;
+}
+ul {
+  list-style-type:none;
+}
+
+#right {
+  float:right;
+  vertical-align: middle;
+
+}
+#scoopList {
+  text-align: center;
+}
+#container {
+  text-align: center;
+}
+.clear {
+  clear:both;
+}
+.pricing {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color:#90A4AE;
+  margin: 0px;
+}
+#left {
+  /*vertical-align:middle;*/
+  width: 50%;
+  float:left;
+}
