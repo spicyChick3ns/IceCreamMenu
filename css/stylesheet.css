@@ -2,14 +2,48 @@
   font-family: sans-serif;
   background-color: #F5F5F5;
 }
-#iceCreamTitle {
-  font-family:sans-serif;
-  font-weight: bold;
-  font-size: auto;
-  text-align: center;
+h2 {
+  font-size: 25px;
+}
+li {
+  list-style: none;
+
 }
 ul {
-  list-style-type:none;
+
+  font-size: 20px;
+  list-style-type:square;
+  text-align: center;
+}
+button {
+  border-radius: 8px;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*button :hover{
+}*/
+#scoop *{
+  background-color: #FFCC80;
+
+}
+#slushie * {
+  background-color: #90CAF9;
+}
+#milkshake * {
+  background-color: #F48FB1;
+}
+#iceCreamTitle *  {
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align:center;
+  color: #37474F;
+}
+
+#left {
+  width: 50%;
+  float:left;
 }
 
 #right {
@@ -19,6 +53,7 @@ ul {
 }
 #scoopList {
   text-align: center;
+
 }
 #container {
   text-align: center;
@@ -27,14 +62,8 @@ ul {
   clear:both;
 }
 .pricing {
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
   text-align: center;
-  color:#90A4AE;
-  margin: 0px;
-}
-#left {
-  /*vertical-align:middle;*/
-  width: 50%;
-  float:left;
+  color:#FAFAFA;
 }
