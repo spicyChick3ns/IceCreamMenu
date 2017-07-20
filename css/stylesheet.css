@@ -6,11 +6,14 @@ a {
   text-decoration: none
 }
 h2 {
+  color: #37474F;
   font-size: 25px;
 }
 li {
+  font-family: monospace;
   list-style: none;
-
+  text-align: center;
+  font-size: 16px;
 }
 ul {
 
@@ -26,6 +29,14 @@ button {
 /*.container {
   background-color: #C8E6C9;
 }*/
+#small {
+  font-family: monospace;
+
+  color: #B0BEC5;
+  font-size: 8px;
+  text-align: center;
+  padding: 10px;
+}
 #title * {
   text-align: center;
   font-family:sans-serif;
