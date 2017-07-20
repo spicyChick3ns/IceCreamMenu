@@ -2,6 +2,9 @@
   font-family: sans-serif;
   background-color: #F5F5F5;
 }
+a {
+  text-decoration: none
+}
 h2 {
   font-size: 25px;
 }
@@ -12,7 +15,6 @@ li {
 ul {
 
   font-size: 20px;
-  list-style-type:square;
   text-align: center;
 }
 button {
@@ -21,8 +23,16 @@ button {
   width: 100%;
   margin-bottom: 10px;
 }
-/*button :hover{
+/*.container {
+  background-color: #C8E6C9;
 }*/
+#title * {
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #37474F;
+}
 #scoop *{
   background-color: #FFCC80;
 
@@ -33,14 +43,6 @@ button {
 #milkshake * {
   background-color: #F48FB1;
 }
-#iceCreamTitle *  {
-  font-family:sans-serif;
-  font-weight: bold;
-  font-size: 50px;
-  text-align:center;
-  color: #37474F;
-}
-
 #left {
   width: 50%;
   float:left;
@@ -55,9 +57,7 @@ button {
   text-align: center;
 
 }
-#container {
-  text-align: center;
-}
+
 .clear {
   clear:both;
 }
