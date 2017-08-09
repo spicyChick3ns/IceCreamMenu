@@ -18,4 +18,12 @@ $(document).ready(function(){
        $("#sBtn").fadeOut();
        $("#slushFlavour").slideDown();
       });
+      $("#home").click(function(){
+         $("#mBtn").fadeIn();
+         $("#sBtn").fadeIn();
+         $("#slushBtn").fadeIn();
+         $("#slushFlavour").slideUp();
+         $("#scoopFlavour").slideUp();
+         $("#milkFlavour").slideUp();
+        });
 });

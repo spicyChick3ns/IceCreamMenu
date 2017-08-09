@@ -31,7 +31,6 @@ button {
 }*/
 #small {
   font-family: monospace;
-
   color: #B0BEC5;
   font-size: 8px;
   text-align: center;
@@ -68,7 +67,10 @@ button {
   text-align: center;
 
 }
-
+#home {
+  width: 20px;
+  height: 20px;
+}
 .clear {
   clear:both;
 }
